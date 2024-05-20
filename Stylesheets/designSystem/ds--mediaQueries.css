@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+/* Master */
+@import url("ds-00-master.css") all;
+
+/* xSmall */
+@import url("ds-01-xsmall.css") (min-width:1px) AND (min-height:1px) AND (orientation:portrait);
+
+/* Small */
+@import url("ds-02-small.css") (min-width:480px) AND (min-height:320px) AND (orientation:landscape);
+
+/* Medium */
+@import url("ds-03-medium.css") (min-width:768px) AND (min-height:1024px) AND (orientation:portrait);
+
+/* Large */
+@import url("ds-04-large.css") (min-width:1024px) AND (min-height:768px) AND (orientation:landscape);
+
+/* xLarge */
+@import url("ds-05-xlarge.css") (min-width:1366px);
