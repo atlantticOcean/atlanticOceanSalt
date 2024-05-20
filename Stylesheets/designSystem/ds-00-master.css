@@ -176,6 +176,7 @@ header {
     /* Layout */
     width: 100%;
     min-height: 400px;
+    max-width: 800px;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
